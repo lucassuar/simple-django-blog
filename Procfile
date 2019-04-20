@@ -1,1 +1,1 @@
-web: gunicorn blog.wsgi:application
+web: bundle exec rails server -p $PORT
