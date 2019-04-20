@@ -30,7 +30,7 @@ SECRET_KEY = os.environ.get("SECRET_KEY")
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = [os.environ.get("C9_HOSTNAME"), '127.0.0.1', 'python3-django-blog.git']
+ALLOWED_HOSTS = [os.environ.get("C9_HOSTNAME"), '127.0.0.1', 'python3-django-blog.herokuapp.com']
 
 
 # Application definition
